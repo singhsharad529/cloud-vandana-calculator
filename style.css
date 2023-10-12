@@ -1,0 +1,63 @@
+body{
+    background: rgb(218, 216, 216);
+}
+
+.container{
+    display: flex;
+    background-color: yellow;
+    margin: auto;
+    width: 50%;
+    /* border: 1px solid black; */
+    box-shadow: 2px 2px 2px grey;
+    margin-top: 10%;
+}
+
+
+.container .num-btn{
+    width: 80%;
+    background: white;
+    /* border: 1px solid black; */
+}
+
+.result-space{
+    padding-left: 10px;
+    height: 39px;
+}
+
+
+.container .fun-btn{
+    width: 21%;
+    color: white;
+    text-align: center;
+    background: grey;
+}
+
+.num-btn-group{
+    display: flex;
+}
+
+.num-btn-group button{
+    width: 34%;
+    border: none;
+    background: #393636;
+    color: white;
+    cursor: pointer;
+    height: 70px;
+}
+
+.op-btn{
+    display: grid;
+}
+
+.ac{
+    background: #04b3ae !important;
+    height: 60px !important;
+}
+
+.op-btn button{
+    border: none;
+    height: 70px;
+    cursor: pointer;
+    color: white;
+    background: grey;
+}
